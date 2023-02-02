@@ -20,7 +20,23 @@ Merchants can now manage their stock quantities in an online database, which is 
 
 fruGo’s online platform will be built off of a REST API that interacts with a document-oriented database. The database will store various data entities as collections in a MongoDB database, able to be interacted with and have various specified CRUD operations performed on them through Mongoose Schema/models via Express routes and logic controllers.
 
-`Customers` can:
+`Customers`
+
+**Data model:**
+
+```js
+Customer {
+  _id: "123ABC",
+  email: "customer@email.com",
+  password: "...",
+  firstName: "John",
+  lastName: "Smith",
+  city: { <City> },
+  cart: { <Cart> }
+}
+```
+
+**Actions:**
 
 - Create a customer profile with login credentials and personal information
 - View their profile
@@ -31,7 +47,23 @@ fruGo’s online platform will be built off of a REST API that interacts with a 
 - Search for products
 - Filter products by type
 
-`Merchants` can:
+`Merchants`
+
+**Data model:**
+
+```js
+Merchant {
+  _id: "123ABC",
+  email: "merchant@email.com",
+  password: "...",
+  name: "Fresh Food Sydney",
+  description: "The freshest food in Sydney",
+  city: { <City> },
+  products: [ { <Product> }, { <Product> } ]
+}
+```
+
+**Actions:**
 
 - View their profile
 - Update their profile details
