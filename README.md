@@ -20,7 +20,20 @@ Merchants can now manage their stock quantities in an online database, which is 
 
 fruGo’s online platform will be built off of a REST API that interacts with a document-oriented database. The database will store various data entities as collections in a MongoDB database, able to be interacted with and have various specified CRUD operations performed on them through Mongoose Schema/models via Express routes and logic controllers.
 
+The two external entities that will be interacting with the application are `Customers`, `Merchants` and a single `Admin`.
+
 `Customers`
+
+**Actions:**
+
+- Create a customer profile with login credentials and personal information
+- View their profile
+- Update their details
+- Delete their profile
+- Add and remove items to their cart
+- Submit their cart and create an order
+- Search for products
+- Filter products by type
 
 **Data model:**
 
@@ -36,18 +49,17 @@ Customer {
 }
 ```
 
+`Merchants`
+
 **Actions:**
 
-- Create a customer profile with login credentials and personal information
 - View their profile
-- Update their details
-- Delete their profile
-- Add and remove items to their cart
-- Submit their cart and create an order
-- Search for products
-- Filter products by type
-
-`Merchants`
+- Update their profile details
+- View their stock/product quantities
+- Update their stock quantities
+- Add and remove products from their inventory
+- View their pending and completed orders
+- Cancel their orders
 
 **Data model:**
 
@@ -62,16 +74,6 @@ Merchant {
   products: [ { <Product> }, { <Product> } ]
 }
 ```
-
-**Actions:**
-
-- View their profile
-- Update their profile details
-- View their stock/product quantities
-- Update their stock quantities
-- Add and remove products from their inventory
-- View their pending and completed orders
-- Cancel their orders
 
 ### **Target audience**
 
