@@ -20,8 +20,6 @@ Merchants can now manage their stock quantities in an online database, which is 
 
 fruGo’s online platform is a dynamic website that will be built off of a REST API that interacts with a document-oriented database. The database will store various data entities as collections in a _MongoDB_ database, able to be interacted with and have various specified CRUD operations performed on them through _Mongoose_ Schema/models via _Express_ routes and logic controllers. This back-end logic will be accessed by users via an interactive front-end built with _React_.
 
-### **External entities**
-
 The three external entities that will be interacting with the application are `Customers`, `Merchants` and `Admins`.
 
 ### `Customer`
