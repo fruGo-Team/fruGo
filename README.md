@@ -22,7 +22,7 @@ fruGo’s online platform will be built off of a REST API that interacts with a 
 
 The two external entities that will be interacting with the application are `Customers`, `Merchants` and a single `Admin`.
 
-`Customer`
+### `Customer`
 
 **Actions:**
 
@@ -45,11 +45,11 @@ Customer {
   firstName: "John",
   lastName: "Smith",
   city: { <City> },
-  cart: { <Cart> }
+  cart: { <Cart> },
 }
 ```
 
-`Merchant`
+### `Merchant`
 
 **Actions:**
 
@@ -65,27 +65,46 @@ Customer {
 
 ```js
 Merchant {
-  _id: "123ABC",
+  _id: "456DEF",
   email: "merchant@email.com",
   password: "...",
   name: "Fresh Food Sydney",
   description: "The freshest food in Sydney",
   city: { <City> },
-  products: [ { <Product> }, { <Product> } ]
+  products: [ { <Product> }, { <Product> } ],
+}
+```
+
+### `Admin`
+
+**Actions:**
+
+- View all non-sensitive data of customers/merchants
+- View all orders and cancel/update if needed
+- Add and remove products from merchant's stock
+- Perform all other tasks other than view/update sensitive data
+
+```js
+Admin {
+  _id: "789GHI",
+  email: "admin@email.com",
+  password: "...",
+  firstName: "Chief",
+  lastName: "Admin",
 }
 ```
 
 ### **Target audience**
 
-**Income level**: Middle to upper-middle class  
-**Location**: Metropolitan areas in Australian major cities  
+**Income level**: Middle to upper-middle class
+**Location**: Metropolitan areas in Australian major cities
 **Age**: 25-34 years old
-**Occupation**: Busy full-time employees with little time to visit grocery store  
-**Education** level: Moderately educated individuals with a decent understanding of modern technology  
-**Language**: English  
-**Gender**: All  
-**Devices**: Smart phone (iOS & Android), tablets, desktop  
-**Motivation**:To simplify and streamline buying fresh food so that they have more free time  
+**Occupation**: Busy full-time employees with little time to visit grocery store
+**Education** level: Moderately educated individuals with a decent understanding of modern technology
+**Language**: English
+**Gender**: All
+**Devices**: Smart phone (iOS & Android), tablets, desktop
+**Motivation**:To simplify and streamline buying fresh food so that they have more free time
 **Needs**:
 
 - An easy to understand and straight-forward user interface
@@ -147,3 +166,7 @@ Merchant {
 [ ] Add desired products to a temporary cart in order to keep shopping until I'm ready to finalise my order
 
 [ ] Remove products from a cart in case I don't want them anymore
+
+```
+
+```
