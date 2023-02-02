@@ -15,22 +15,48 @@ Merchants can now manage their stock quantities in an online database, which is 
 
 ## **User Stories**
 
-**_As the owner of the fruGo company, I would like:_**
+**_As the owner/admin of the fruGo company, I would like:_**
 
-[ ] 1. To have a Sign in/Sign up Page for existing & new customers (to ensure online user authentication)
+[ ] To have full control (all CRUD functionality) over 'customers' & 'merchants', so that unwanted users can be removed and unexpected errors can be handled.
 
-[ ] 2. Each customer must be signed in (assuming they've created their account) in order to view the available fruits & vegetables
+[ ] **_Merchants_** can only be added by me, so that unwanted merchants aren't selling unapproved products
 
-[ ] 3. Each customer to only be shown the products available by the merchant in their city (a Melbourne-based customer can view the stock of the Melbourne merchant, etc)
+**_As a merchant of fruGo, I would like:_**
 
-[ ] 4. Anyone can sign up as a **_customer_**, but **_merchants_** can only be added by an **_admin_** user
+[ ] To view/edit my profile in order to provide accurate information my store
 
-[ ] 5. Only one admin user (that has full control over all other users (so customers & merchants))
+[ ] Each customer must be signed in order to view the available products
 
-[ ] 6. Each merchant (once signed in) can update their current product availablity (**_add_** new fruits/vegetables, **_update_** the stock of existing ones, or **_delete_** any of their product listings if needed)
+[ ] To **_update_** my current product availablity/stock, to make sure all products are up to date
 
-[ ] 7. Customers can add desired products (and their respective amounts) to a cart (that automatically updates the total cost); items added to cart cannot exceed current stock availability
+[ ] **_Add/Create_** new products to my store, to keep up with customer demand
 
-[ ] 8. An **_ORDER_** to be created once a cart has been finalised and submitted (each order indicates a completed purchase and includes critical info (customer, merchant, date purchased, amount, etc))
+[ ] **_Delete_** any of my product listings (if needed), so that customers aren't purchasing unavailable products
 
-[ ] 9. Completed orders will thereby update the stock (as items have been purchased, so the application must update to the latest availability)
+[ ] To view both 'pending' and 'completed' orders
+
+[ ] Delete 'pending' orders if stock isn't available in order to notify users that their order was unsuccessful (with the provided reason)
+
+[ ] To mark pending orders from customers as completed to notify customers that their order was successful
+
+[ ] Every completed **_ORDER_** by a customer to be sent to me, in order to keep receipts of all transactions
+
+[ ] Completed orders to update the stock of the purchased products, in order to communicate to customers how much stock is left
+
+**_As a customer of fruGo, I would like:_**
+
+[ ] To create an account in order to store my information for future orders and save past orders as well
+
+[ ] Edit my account information so that it's up to date, and the option to delete my account in not needed anymore
+
+[ ] To have a Sign in/Sign up Page, in order to ensure online user authentication
+
+[ ] To only view products that are available in my city, in order get the fastest delivery possible
+
+[ ] To search for products, in order find them quickly without scrolling through all products at once
+
+[ ] Filter products by type, to enhance the searching experience
+
+[ ] Add desired products to a temporary cart in order to keep shopping until I'm ready to finalise my order
+
+[ ] Remove products from a cart in case I don't want them anymore
