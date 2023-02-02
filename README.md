@@ -16,11 +16,13 @@ fruGo is passionate about the freshness of their produce and reducing food wasta
 Customers can also instantly view product quantities in their respective city to reduce stock issues.
 Merchants can now manage their stock quantities in an online database, which is automatically updated by customer orders, reducing the need for manual stock-takes and customer enquiries.
 
-### **Features**
+### **Features & functionalities**
 
-fruGo’s online platform will be built off of a REST API that interacts with a document-oriented database. The database will store various data entities as collections in a MongoDB database, able to be interacted with and have various specified CRUD operations performed on them through Mongoose Schema/models via Express routes and logic controllers.
+fruGo’s online platform is a dynamic website that will be built off of a REST API that interacts with a document-oriented database. The database will store various data entities as collections in a _MongoDB_ database, able to be interacted with and have various specified CRUD operations performed on them through _Mongoose_ Schema/models via _Express_ routes and logic controllers. This back-end logic will be accessed by users via an interactive front-end built with _React_.
 
-The two external entities that will be interacting with the application are `Customers`, `Merchants` and a single `Admin`.
+### **External entities**
+
+The three external entities that will be interacting with the application are `Customers`, `Merchants` and `Admins`.
 
 ### `Customer`
 
