@@ -65,7 +65,7 @@ Customer {
 
 ```js
 Merchant {
-  _id: "456DEF",
+  _id: "...",
   email: "merchant@email.com",
   password: "...",
   name: "Fresh Food Sydney",
@@ -86,11 +86,25 @@ Merchant {
 
 ```js
 Admin {
-  _id: "789GHI",
+  _id: "...",
   email: "admin@email.com",
   password: "...",
   firstName: "Chief",
   lastName: "Admin",
+}
+```
+
+The data models that these external entities will be interacting with are `Products`, `Carts`, `Orders` & `Cities`.
+
+### `Product`
+
+**Data model:**
+
+```js
+Product {
+  _id: "..."
+  name: "Banana",
+  type: "Fruit"
 }
 ```
 
@@ -166,6 +180,10 @@ Admin {
 [ ] Add desired products to a temporary cart in order to keep shopping until I'm ready to finalise my order
 
 [ ] Remove products from a cart in case I don't want them anymore
+
+```
+
+```
 
 ```
 
