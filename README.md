@@ -1,5 +1,9 @@
 # **_fruGo_**
 
+## **R1: Description of website**
+
+---
+
 ## **Concept**
 
 fruGo is an online fresh produce ordering & delivery company that has been providing Australians with their fruit and vegetables since 2003. With several family owned merchant businesses and dispatch facilities in each major city of the country, fruGo has enjoyed being Australia’s most trusted whole food supplier for two decades.
@@ -13,7 +17,13 @@ Previously, customers would manually choose which merchant to order from and pla
 Customers can also instantly view product quantities across various merchants in their city to reduce stock issues.
 Merchants can now manage their stock quantities in an online database, which is automatically updated by customer orders, reducing the need for manual stocktakes and customer enquiries.
 
-## **User Stories**
+## **R2: Dataflow Diagram**
+
+## **R3: Application Architecture Diagram**
+
+![Application Architecture Diagram](./docs/AAD.png)
+
+## **R4: User Stories**
 
 **_As the owner/admin of the fruGo company, I would like:_**
 
