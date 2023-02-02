@@ -22,7 +22,7 @@ fruGo’s online platform will be built off of a REST API that interacts with a 
 
 The two external entities that will be interacting with the application are `Customers`, `Merchants` and a single `Admin`.
 
-`Customers`
+`Customer`
 
 **Actions:**
 
@@ -49,7 +49,7 @@ Customer {
 }
 ```
 
-`Merchants`
+`Merchant`
 
 **Actions:**
 
