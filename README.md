@@ -1,23 +1,66 @@
-# **_fruGo_**
+# **_*fruGo*_**
 
 ## **R1: Description of website**
 
----
+### **Concept**
 
-## **Concept**
-
-fruGo is an online fresh produce ordering & delivery company that has been providing Australians with their fruit and vegetables since 2003. With several family owned merchant businesses and dispatch facilities in each major city of the country, fruGo has enjoyed being Australia’s most trusted whole food supplier for two decades.
+fruGo is an online fresh produce ordering & delivery company that has been providing Australians with their fruit and vegetables since 2003. With small family owned dispatch facilities in each major city of the country, fruGo has enjoyed being Australia’s most trusted whole food supplier for two decades.
 Originally trading as a phone-order service with a proud emphasis on customer relationships, recent rapid growth in demand due to the COVID pandemic has prompted a major upgrade and overhaul of their web marketplace to reflect today’s digital shopping landscape and offer our customers a modernised and improved user experience.
 When the world was forced into a predominantly online market in early 2020, fruGo faced challenges competing with other large supermarket chains that offered delivery due to their scale and convenience, however once our new vision of a purely web-based delivery powerhouse is realised, fruGo is confident that it will once again lead the market as Australia’s fresh food supplier.
 
-## **Purpose**
+### **Purpose**
 
 The purpose of building a new online platform for fruGo is to utilise modern technologies to improve the reliability and delivery performance for customers and merchants alike.
-Previously, customers would manually choose which merchant to order from and place orders on the telephone. fruGo believes that a successful business is an efficient one, so this process will be streamlined with the use of an online commerce platform using third-party services to automatically evaluate the closest merchant able to fulfil their particular order, enhancing the process for everyone.
-Customers can also instantly view product quantities across various merchants in their city to reduce stock issues.
-Merchants can now manage their stock quantities in an online database, which is automatically updated by customer orders, reducing the need for manual stocktakes and customer enquiries.
+Previously, customers would manually choose which merchant to order from and place orders via a telephone service. fruGo believes that a successful business is an efficient one, so this process will be streamlined with the use of an online commerce platform using automated processes to automatically evaluate the closest merchant able to fulfill their particular order, enhancing the process for everyone.
+fruGo is passionate about the freshness of their produce and reducing food wastage, and we believe that the need to bulk-buy to reduce visits to physical grocery stores is depriving the public of truly fresh food. Not only do we aim to make ordering quick and stress-free, we have no delivery fee so that our customers can only order what they need, more frequently!
+Customers can also instantly view product quantities in their respective city to reduce stock issues.
+Merchants can now manage their stock quantities in an online database, which is automatically updated by customer orders, reducing the need for manual stock-takes and customer enquiries.
 
-## **R2: Dataflow Diagram**
+### **Features**
+
+fruGo’s online platform will be built off of a REST API that interacts with a document-oriented database. The database will store various data entities as collections in a MongoDB database, able to be interacted with and have various specified CRUD operations performed on them through Mongoose Schema/models via Express routes and logic controllers.
+
+`Customers` can:
+
+- Create a customer profile with login credentials and personal information
+- View their profile
+- Update their details
+- Delete their profile
+- Add and remove items to their cart
+- Submit their cart and create an order
+- Search for products
+- Filter products by type
+
+`Merchants` can:
+
+- View their profile
+- Update their profile details
+- View their stock/product quantities
+- Update their stock quantities
+- Add and remove products from their inventory
+- View their pending and completed orders
+- Cancel their orders
+
+### **Target audience**
+
+**Income level**: Middle to upper-middle class  
+**Location**: Metropolitan areas in Australian major cities  
+**Age**: 25-34 years old
+**Occupation**: Busy full-time employees with little time to visit grocery store  
+**Education** level: Moderately educated individuals with a decent understanding of modern technology  
+**Language**: English  
+**Gender**: All  
+**Devices**: Smart phone (iOS & Android), tablets, desktop  
+**Motivation**:To simplify and streamline buying fresh food so that they have more free time  
+**Needs**:
+
+- An easy to understand and straight-forward user interface
+- Clear pricing
+- Ability to modify their cart
+- Location-based merchant selection for rapid delivery
+- Visibility for merchants
+
+## **R2: Dataflow Diagrams**
 
 ## **R3: Application Architecture Diagram**
 
@@ -37,7 +80,7 @@ Merchants can now manage their stock quantities in an online database, which is 
 
 [ ] Each customer must be signed in order to view the available products
 
-[ ] To **_update_** my current product availablity/stock, to make sure all products are up to date
+[ ] To **_update_** my current product availability/stock, to make sure all products are up to date
 
 [ ] **_Add/Create_** new products to my store, to keep up with customer demand
 
