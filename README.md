@@ -37,16 +37,16 @@ The three external entities that will be interacting with the application are `C
 
 **Data model:**
 
-```js
+```json
 Customer {
-  _id: "123ABC",
-  email: "customer@email.com",
-  password: "...",
-  firstName: "John",
-  lastName: "Smith",
-  city: { <City> },
-  streetAddress: "123 Fake street",
-  cart: { <Cart> },
+  _id: <ID>,
+  email: <Email address> (validated),
+  password: <Login password> (hashed upon storage),
+  firstName: <First name>,
+  lastName: <Last name>,
+  city: { <Referenced City object> },
+  streetAddress: <Street address for delivery>,
+  orders: [ { <Referenced Order objects> } ]
 }
 ```
 
@@ -64,15 +64,15 @@ Customer {
 
 **Data model:**
 
-```js
+```json
 Merchant {
-  _id: "...",
-  email: "merchant@email.com",
-  password: "...",
-  name: "Fresh Food Sydney",
-  description: "The freshest food in Sydney",
-  city: { <City> },
-  products: [ ... { <Product> }, { <Product> } ],
+  _id: <ID>,
+  email: <Email address> (validated),
+  password: <Login password> (hashed upon storage),
+  name: <Business name>,
+  description: <Brief description of business>,
+  city: { <Referenced City object> },
+  products: [ ... { <Referenced Product> }, { <Referenced Product> } ]
 }
 ```
 
@@ -85,13 +85,13 @@ Merchant {
 - Add and remove products from merchant's stock
 - Perform all other tasks other than view/update sensitive data
 
-```js
+```json
 Admin {
-  _id: "...",
-  email: "admin@email.com",
-  password: "...",
-  firstName: "Chief",
-  lastName: "Admin",
+  _id: <ID>,
+  email: <Email address>,
+  password: <Login password> (hashed upon storage),
+  firstName: <First name>,
+  lastName: <Last name>
 }
 ```
 
@@ -101,11 +101,11 @@ The data models that these external entities will be interacting with are `Produ
 
 **Data model:**
 
-```js
+```json
 Product {
-  _id: "..."
-  name: "Banana",
-  type: "Fruit"
+  _id: <ID>,
+  name: <Name of food product>,
+  type: <Type of food product>
 }
 ```
 
@@ -113,13 +113,14 @@ Product {
 
 **Data model:**
 
-```js
+```json
 Cart {
-  _id: "...",
-  customer: <Customer>,
-  merchant: <Merchant>,
-  products: [ ... { { <Product> }, quantity: 5 }, { { <Product> }, quantity: 1 } ],
-  totalPrice: 39,
+  _id: <ID>,
+  customer: <Referenced Customer object>,
+  merchant: <Referenced Merchant object>,
+  products: [ ... { { <Referenced Product object> }, quantity: 5 },
+  { { <Referenced Product object> }, quantity: 1 } ],
+  totalPrice: 39
 }
 ```
 
@@ -127,14 +128,14 @@ Cart {
 
 **Data model:**
 
-```js
+```json
 Order {
-  _id: "...",
-  cart: <Cart>,
+  _id: <ID>,
+  cart: <Referenced Cart object>,
   timestamps: true,
-  createdAt: 2023-02-03T10:00:00.000Z,
-  updatedAt: 2023-02-03T14:00:00.000Z,
-  status: "pending",
+  createdAt: <Timestamp of creation>,
+  updatedAt: <Timestamp of any updates>,
+  status: <"pending" or "completed">
 }
 ```
 
@@ -142,10 +143,10 @@ Order {
 
 **Data model:**
 
-```js
+```json
 City {
-  _id: "...",
-  name: "Sydney",
+  _id: <ID>,
+  name: <Name of city>
 }
 ```
 
