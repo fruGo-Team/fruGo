@@ -159,7 +159,7 @@ City {
 **Language**: English  
 **Gender**: All  
 **Devices**: Smart phone (iOS & Android), tablets, desktop  
-**Motivation**:To simplify and streamline buying fresh food so that they have more free time  
+**Motivation**: To simplify and streamline buying fresh food so that they have more free time  
 **Needs**:
 
 - An easy to understand and straight-forward user interface
