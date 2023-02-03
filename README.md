@@ -91,11 +91,11 @@ Merchant {
   name: String, // Business name
   description: String, // Brief description of business
   city: ObjectId, // Referenced City object
-  stock: Array, // Referenced ProductStock objects (includes product and stock quantity)
+  stock: Array, // Referenced StockProduct objects (includes product and stock quantity)
 }
 ```
 
-The data models that these external entities will be interacting with are `Products`, `ProductStock`, `Carts`, `Orders` & `Cities`.
+The data models that these external entities will be interacting with are `Products`, `StockProduct`, `Carts`, `Orders` & `Cities`.
 
 ### `Product`
 
@@ -110,12 +110,12 @@ Product {
 }
 ```
 
-### `ProductStock`
+### `StockProduct`
 
 **Data model:**
 
 ```js
-ProductStock {
+StockProduct {
   _id: ObjectId, // Unique document identifier
   merchant: ObjectId, // Referenced Merchant object
   product: ObjectId, // Referenced Product object
