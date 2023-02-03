@@ -115,12 +115,26 @@ Product {
 
 ```js
 Cart {
-  _id: "..."
-  customer: <Customer ID>,
-  merchant: <Merchant ID>,
+  _id: "...",
+  customer: <Customer>,
+  merchant: <Merchant>,
   products: [ ... { { <Product> }, quantity: 5 }, { { <Product> }, quantity: 1 } ],
   totalPrice: 39,
-  createdAt: "2023-02-03",
+}
+```
+
+### `Order`
+
+**Data model:**
+
+```js
+Order {
+  _id: "...",
+  cart: <Cart>,
+  timestamps: true,
+  createdAt: 2023-02-03T10:00:00.000Z,
+  updatedAt: 2023-02-03T14:00:00.000Z,
+  status: "pending",
 }
 ```
 
