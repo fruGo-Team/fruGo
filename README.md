@@ -106,6 +106,8 @@ Product {
   _id: ObjectId, // Unique document identifier
   name: String, // Name of food product
   type: String, // Type of food product
+  price: Number, // Price of food product
+  stock: Number, // Current number of available quantity of the food product
 }
 ```
 
@@ -135,6 +137,7 @@ Order {
   createdAt: Date, // Date object of creation timestamp
   updatedAt: Date, // Date object of any update timestamps
   status: String, // defaults as "pending"
+  totalOrderCost: Number, // Total cost of the order
 }
 ```
 
@@ -184,7 +187,7 @@ City {
 
 **_As a merchant of fruGo, I would like:_**
 
-[ ] To view/edit my profile in order to provide accurate information my store
+[ ] To view/edit my profile in order to provide accurate information relating to my store
 
 [ ] Each customer must be signed in order to view the available products
 
@@ -221,11 +224,3 @@ City {
 [ ] Add desired products to a temporary cart in order to keep shopping until I'm ready to finalise my order
 
 [ ] Remove products from a cart in case I don't want them anymore
-
-```
-
-```
-
-```
-
-```
