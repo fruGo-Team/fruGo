@@ -22,6 +22,25 @@ fruGo’s online platform is a dynamic website that will be built off of a REST 
 
 The three external entities that will be interacting with the application are `Customers`, `Merchants` and `Admins`.
 
+### `Admin`
+
+**Actions:**
+
+- View all non-sensitive data of customers/merchants
+- View all orders and cancel/update if needed
+- Add and remove products from merchant's stock
+- Perform all other tasks other than view/update sensitive data
+
+```js
+Admin {
+  _id: ObjectId, // Unique document identifier
+  email: String, // Email address (validated)
+  password: String, // Password (min. 8 characters, stored as hash)
+  firstName: String, // First name
+  lastName: String, // Last name
+}
+```
+
 ### `Customer`
 
 **Actions:**
@@ -72,30 +91,11 @@ Merchant {
   name: String, // Business name
   description: String, // Brief description of business
   city: ObjectId, // Referenced City object
-  products: Array, // Referenced Product objects
+  stock: Array, // Referenced ProductStock objects (includes product and stock quantity)
 }
 ```
 
-### `Admin`
-
-**Actions:**
-
-- View all non-sensitive data of customers/merchants
-- View all orders and cancel/update if needed
-- Add and remove products from merchant's stock
-- Perform all other tasks other than view/update sensitive data
-
-```js
-Admin {
-  _id: ObjectId, // Unique document identifier
-  email: String, // Email address (validated)
-  password: String, // Password (min. 8 characters, stored as hash)
-  firstName: String, // First name
-  lastName: String, // Last name
-}
-```
-
-The data models that these external entities will be interacting with are `Products`, `Carts`, `Orders` & `Cities`.
+The data models that these external entities will be interacting with are `Products`, `ProductStock`, `Carts`, `Orders` & `Cities`.
 
 ### `Product`
 
@@ -110,16 +110,16 @@ Product {
 }
 ```
 
-### `MerchantProduct`
+### `ProductStock`
 
 **Data model:**
 
 ```js
-MerchantProduct {
+ProductStock {
   _id: ObjectId, // Unique document identifier
   merchant: ObjectId, // Referenced Merchant object
   product: ObjectId, // Referenced Product object
-  stock: Number, // Merchant's current quantity
+  quantity: Number, // Current quantity Merchant has in stock
 }
 ```
 
