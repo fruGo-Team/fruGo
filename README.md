@@ -45,6 +45,7 @@ Customer {
   firstName: "John",
   lastName: "Smith",
   city: { <City> },
+  streetAddress: "123 Fake street",
   cart: { <Cart> },
 }
 ```
@@ -71,7 +72,7 @@ Merchant {
   name: "Fresh Food Sydney",
   description: "The freshest food in Sydney",
   city: { <City> },
-  products: [ { <Product> }, { <Product> } ],
+  products: [ ... { <Product> }, { <Product> } ],
 }
 ```
 
@@ -105,6 +106,21 @@ Product {
   _id: "..."
   name: "Banana",
   type: "Fruit"
+}
+```
+
+### `Cart`
+
+**Data model:**
+
+```js
+Cart {
+  _id: "..."
+  customer: <Customer ID>,
+  merchant: <Merchant ID>,
+  products: [ ... { { <Product> }, quantity: 5 }, { { <Product> }, quantity: 1 } ],
+  totalPrice: 39,
+  createdAt: "2023-02-03",
 }
 ```
 
