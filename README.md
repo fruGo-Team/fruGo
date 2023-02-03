@@ -107,7 +107,19 @@ Product {
   name: String, // Name of food product
   type: String, // Type of food product
   price: Number, // Price of food product
-  stock: Number, // Current number of available quantity of the food product
+}
+```
+
+### `MerchantProduct`
+
+**Data model:**
+
+```js
+MerchantProduct {
+  _id: ObjectId, // Unique document identifier
+  merchant: ObjectId, // Referenced Merchant object
+  product: ObjectId, // Referenced Product object
+  stock: Number, // Merchant's current quantity
 }
 ```
 
@@ -136,8 +148,7 @@ Order {
   timestamps: true, // Will add createdAt & updatedAt properties by default
   createdAt: Date, // Date object of creation timestamp
   updatedAt: Date, // Date object of any update timestamps
-  status: String, // defaults as "pending"
-  totalOrderCost: Number, // Total cost of the order
+  status: String, // "pending" (default), "complete", "cancelled"
 }
 ```
 
