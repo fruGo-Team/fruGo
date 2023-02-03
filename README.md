@@ -138,6 +138,17 @@ Order {
 }
 ```
 
+### `City`
+
+**Data model:**
+
+```js
+City {
+  _id: "...",
+  name: "Sydney",
+}
+```
+
 ### **Target audience**
 
 **Income level**: Middle to upper-middle class
