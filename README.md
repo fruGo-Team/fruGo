@@ -39,14 +39,14 @@ The three external entities that will be interacting with the application are `C
 
 ```js
 Customer {
-  _id: <ID>,
-  email: <email address> (validated),
-  password: <login password> (hashed upon storage),
-  firstName: <first name>,
-  lastName: <last name>,
-  city: { <referenced City object> },
-  streetAddress: <street address for delivery>,
-  orders: [ { <referenced Order objects> } ],
+  _id: ObjectId, // Unique document identifier
+  email: String, // Email address (validated)
+  password: String, // Password (min. 8 characters, stored as hash)
+  firstName: String, // First name
+  lastName: String, // Last name
+  city: ObjectId, // Referenced City object
+  streetAddress: String, // Street address for delivery
+  orders: Array, // Referenced Order objects
 }
 ```
 
@@ -66,13 +66,13 @@ Customer {
 
 ```js
 Merchant {
-  _id: <ID>,
-  email: <email address> (validated),
-  password: <login password> (hashed upon storage),
-  name: <business name>,
-  description: <brief description of business>,
-  city: { <referenced City object> },
-  products: [ ... { <referenced Product> }, { <referenced Product> } ],
+  _id: ObjectId, // Unique document identifier
+  email: String, // Email address (validated)
+  password: String, // Password (min. 8 characters, stored as hash)
+  name: String, // Business name
+  description: String, // Brief description of business
+  city: ObjectId, // Referenced City object
+  products: Array, // Referenced Product objects
 }
 ```
 
@@ -87,11 +87,11 @@ Merchant {
 
 ```js
 Admin {
-  _id: <ID>,
-  email: <email address>,
-  password: <login password> (hashed upon storage),
-  firstName: <first name>,
-  lastName: <last name>,
+  _id: ObjectId, // Unique document identifier
+  email: String, // Email address (validated)
+  password: String, // Password (min. 8 characters, stored as hash)
+  firstName: String, // First name
+  lastName: String, // Last name
 }
 ```
 
@@ -103,9 +103,9 @@ The data models that these external entities will be interacting with are `Produ
 
 ```js
 Product {
-  _id: <ID>,
-  name: <name of food product>,
-  type: <type of food product>,
+  _id: ObjectId, // Unique document identifier
+  name: String, // Name of food product
+  type: String, // Type of food product
 }
 ```
 
@@ -115,12 +115,11 @@ Product {
 
 ```js
 Cart {
-  _id: <ID>,
-  customer: <referenced Customer object>,
-  merchant: <referenced Merchant object>,
-  products: [ ... { { <Referenced Product object> }, quantity: <amount in cart> },
-  { { <Referenced Product object> }, quantity: <amount in cart> } ],
-  totalPrice: <current total of all product prices>,
+  _id: ObjectId, // Unique document identifier
+  customer: ObjectId, // Referenced Customer object
+  merchant: ObjectId, // Referenced Merchant object
+  products: Array, // Array of objects storing Product object & quantity
+  totalPrice: Number, // Current total price in AUD
 }
 ```
 
@@ -130,12 +129,12 @@ Cart {
 
 ```js
 Order {
-  _id: <ID>,
-  cart: <referenced Cart object>,
-  timestamps: true,
-  createdAt: <Date object of timestamp of creation>,
-  updatedAt: <Date object of timestamp of any updates>,
-  status: <"pending" or "completed">,
+  _id: ObjectId, // Unique document identifier
+  cart: ObjectId, // Referenced Cart object
+  timestamps: true, // Will add createdAt & updatedAt properties by default
+  createdAt: Date, // Date object of creation timestamp
+  updatedAt: Date, // Date object of any update timestamps
+  status: String, // defaults as "pending"
 }
 ```
 
@@ -145,8 +144,8 @@ Order {
 
 ```js
 City {
-  _id: <ID>,
-  name: <name of city>,
+  _id: ObjectId, // Unique document identifier
+  name: String, // Name of major city
 }
 ```
 
