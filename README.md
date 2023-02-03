@@ -151,15 +151,15 @@ City {
 
 ### **Target audience**
 
-**Income level**: Middle to upper-middle class
-**Location**: Metropolitan areas in Australian major cities
-**Age**: 25-34 years old
-**Occupation**: Busy full-time employees with little time to visit grocery store
-**Education** level: Moderately educated individuals with a decent understanding of modern technology
-**Language**: English
-**Gender**: All
-**Devices**: Smart phone (iOS & Android), tablets, desktop
-**Motivation**:To simplify and streamline buying fresh food so that they have more free time
+**Income level**: Middle to upper-middle class  
+**Location**: Metropolitan areas in Australian major cities  
+**Age**: 25-34 years old  
+**Occupation**: Busy full-time employees with little time to visit grocery store  
+**Education** level: Moderately educated individuals with a decent understanding of modern technology  
+**Language**: English  
+**Gender**: All  
+**Devices**: Smart phone (iOS & Android), tablets, desktop  
+**Motivation**:To simplify and streamline buying fresh food so that they have more free time  
 **Needs**:
 
 - An easy to understand and straight-forward user interface
