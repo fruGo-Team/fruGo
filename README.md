@@ -202,7 +202,7 @@ City {
 
 ## **R3: Application Architecture Diagram**
 
-![Application Architecture Diagram](./docs/AAD.png)
+![Application Architecture Diagram](./docs/diagrams/AAD.png)
 
 ## **R4: User Stories**
 
