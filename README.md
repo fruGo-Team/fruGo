@@ -200,6 +200,14 @@ City {
 
 ## **R2: Dataflow Diagrams**
 
+### **Level 0: Order Products**
+
+![L0 Order Products](./docs/diagrams/l0-order-products.png)
+
+### **Level 1: Order Products**
+
+![L1 Order Products](./docs/diagrams/l1-order-products.png)
+
 ## **R3: Application Architecture Diagram**
 
 ![Application Architecture Diagram](./docs/diagrams/AAD.png)
