@@ -259,3 +259,17 @@ City {
 [ ] Add desired products to a temporary cart in order to keep shopping until I'm ready to finalise my order
 
 [ ] Remove products from a cart in case I don't want them anymore
+
+## **R5: fruGo Wireframes**
+
+### **_1A (PC) - Homepage (NOT Signed In)_**
+
+![1A (PC) - Homepage (NOT Signed In)](<./docs/wireframes/1A%20(PC)%20-%20Homepage%20(NOT%20Signed%20In).png>)
+
+### **_2A (PC) - (Sign In Page)_**
+
+![2A (PC) - (Sign In Page)](<./docs/wireframes/2A%20(PC)%20-%20(Sign%20In%20Page).png>)
+
+### **_2A (PC) - (Sign In Page)_**
+
+![3A (PC) - Homepage (Signed In)](<./docs/wireframes/3A (PC) - Homepage (Signed In).png>)
