@@ -182,6 +182,22 @@ City {
 - Location-based merchant selection for rapid delivery
 - Visibility for merchants
 
+### **Tech stack**
+
+**Languages**: `JavaScript`, `HTML`, `CSS`  
+**Database:** `MongoDB`  
+**Object Data Mapping (ODM):** `Mongoose`  
+**Web framework:** `Express`  
+**User interface libraries:** `React`, `styled components`, `mui`  
+**JS server environment:** `Node.js`, `nodemon`  
+**Encryption/decryption:** `CryptoJS`  
+**Hashing/salt:** `bcrypt`  
+**Access tokens:** `JsonWebToken`  
+**Testing:** `Jest`, `supertest`  
+**Routing:** `React Router DOM`  
+**HTTP client:** `Axios`  
+**Resource management:** `cors`
+
 ## **R2: Dataflow Diagrams**
 
 ## **R3: Application Architecture Diagram**
