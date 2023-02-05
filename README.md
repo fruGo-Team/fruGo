@@ -11,10 +11,13 @@ When the world was forced into a predominantly online market in early 2020, fruG
 ### **Purpose**
 
 The purpose of building a new online platform for fruGo is to utilise modern technologies to improve the reliability and delivery performance for customers and merchants alike.
+
 Previously, customers would manually choose which merchant to order from and place orders via a telephone service. fruGo believes that a successful business is an efficient one, so this process will be streamlined with the use of an online commerce platform using automated processes to automatically evaluate the closest merchant able to fulfill their particular order, enhancing the process for everyone.
+
 fruGo is passionate about the freshness of their produce and reducing food wastage, and we believe that the need to bulk-buy to reduce visits to physical grocery stores is depriving the public of truly fresh food. Not only do we aim to make ordering quick and stress-free, we have no delivery fee so that our customers can only order what they need, more frequently!
-Customers can also instantly view product quantities in their respective city to reduce stock issues.
-Merchants can now manage their stock quantities in an online database, which is automatically updated by customer orders, reducing the need for manual stock-takes and customer enquiries.
+
+Prior to this update, Customers had to enter their personal details (such as delivery information) for every order. We will be introducing authentication/authorisation features so that users will have their information stored securely in an online account! Customers can also now instantly view product quantities in their respective city to reduce stock issues.
+Merchants now have the ability manage their stock quantities in an online database, which is automatically updated by customer orders, reducing the need for manual stock-takes and customer enquiries.
 
 ### **Features & functionalities**
 
