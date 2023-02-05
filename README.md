@@ -196,6 +196,7 @@ City {
 **Testing:** `Jest`, `supertest`  
 **Routing:** `React Router DOM`  
 **HTTP client:** `Axios`  
+**HTTP header security:** `Helmet.js`  
 **Resource management:** `cors`
 
 ## **R2: Dataflow Diagrams**
