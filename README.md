@@ -272,10 +272,46 @@ City {
 
 ![1A (PC) - Homepage (NOT Signed In)](<./docs/wireframes/1A%20(PC)%20-%20Homepage%20(NOT%20Signed%20In).png>)
 
-### **_2A (PC) - (Sign In Page)_**
+### **_2A (PC) - Products Page (NOT Signed In)_**
 
-![2A (PC) - (Sign In Page)](<./docs/wireframes/2A%20(PC)%20-%20(Sign%20In%20Page).png>)
+![2A (PC) - Products Page (NOT Signed In)](<./docs/wireframes/2A (PC) - Products Page (NOT Signed In).png>)
 
-### **_2A (PC) - (Sign In Page)_**
+### **_3A (PC) - Sign In Page (ALL Users)_**
 
-![3A (PC) - Homepage (Signed In)](<./docs/wireframes/3A (PC) - Homepage (Signed In).png>)
+![3A (PC) - Sign In Page (ALL Users)](<./docs/wireframes/3A (PC) - Sign In Page (ALL Users).png>)
+
+### **_4A (PC) - Customer Homepage_**
+
+![4A (PC) - Customer Homepage](<./docs/wireframes/4A (PC) - Customer Homepage.png>)
+
+### **_5A (PC) - Customer Products Page_**
+
+![5A (PC) - Customer Products Page](<./docs/wireframes/5A (PC) - Customer Products Page.png>)
+
+### **_6A (PC) - Customer Cart Page_**
+
+![6A (PC) - Customer Cart Page](<./docs/wireframes/6A (PC) - Customer Cart Page.png>)
+
+### **_7A (PC) - Customer Order Confirmation Page_**
+
+![7A (PC) - Customer Order Confirmation Page](<./docs/wireframes/7A (PC) - Customer Order Confirmation Page.png>)
+
+### **_8A (PC) - Customer Completed Orders_**
+
+![8A (PC) - Customer Completed Orders](<./docs/wireframes/8A (PC) - Customer Completed Orders.png>)
+
+### **_9A (PC) - Merchant Homepage_**
+
+![9A (PC) - Merchant Homepage](<./docs/wireframes/9A (PC) - Merchant Homepage.png>)
+
+### **_10A (PC) - Merchant Products Page_**
+
+![10A (PC) - Merchant Products Page](<./docs/wireframes/10A (PC) - Merchant Products Page.png>)
+
+### **_11A (PC) - Merchant Add Product Page_**
+
+![11A (PC) - Merchant Add Product Page](<./docs/wireframes/11A (PC) - Merchant Add Product Page.png>)
+
+### **_12A (PC) - Merchant Orders_**
+
+![12A (PC) - Merchant Orders](<./docs/wireframes/12A (PC) - Merchant Orders.png>)
