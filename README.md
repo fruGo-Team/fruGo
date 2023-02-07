@@ -330,12 +330,12 @@ City {
 
 ### **_16A (PC) - Admin/Customer List_**
 
-![16A (PC) - Admin/Customer List](<./docs/wireframes/16A (PC) - Admin_Customer List.png>)
+![16A (PC) - Admin/Customer List](<./docs/wireframes/16A (PC) - Admin_Update Merchant.png>)
 
 ### **_17A (PC) - Admin/Update Merchant_**
 
-![17A (PC) - Admin/Update Merchant](<./docs/wireframes/17A (PC) - Admin_Update Merchant.png>)
+![17A (PC) - Admin/Update Merchant](<./docs/wireframes/17A (PC) - Admin_Customer List.png>)
 
-### **_18A (PC) - Register Page (CUSTOMERS ONLY)s_**
+### **_18A (PC) - Register Page (CUSTOMERS ONLY)_**
 
-![18A (PC) - Register Page (CUSTOMERS ONLY)s](<./docs/wireframes/18A (PC) - Register Page (CUSTOMERS ONLY).png>)
+![18A (PC) - Register Page (CUSTOMERS ONLY)](<./docs/wireframes/18A (PC) - Register Page (CUSTOMERS ONLY).png>)
