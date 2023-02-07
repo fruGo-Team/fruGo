@@ -315,3 +315,27 @@ City {
 ### **_12A (PC) - Merchant Orders_**
 
 ![12A (PC) - Merchant Orders](<./docs/wireframes/12A (PC) - Merchant Orders.png>)
+
+### **_13A (PC) - Admin Homepage_**
+
+![13A (PC) - Admin Homepage](<./docs/wireframes/13A (PC) - Admin Homepage.png>)
+
+### **_14A (PC) - Admin/Merchant List_**
+
+![14A (PC) - Admin/Merchant List](<./docs/wireframes/14A (PC) - Admin_Merchant List.png>)
+
+### **_15A (PC) - Admin/Add Merchant_**
+
+![15A (PC) - Admin/Add Merchant](<./docs/wireframes/15A (PC) - Admin_Add Merchant.png>)
+
+### **_16A (PC) - Admin/Customer List_**
+
+![16A (PC) - Admin/Customer List](<./docs/wireframes/16A (PC) - Admin_Customer List.png>)
+
+### **_17A (PC) - Admin/Update Merchant_**
+
+![17A (PC) - Admin/Update Merchant](<./docs/wireframes/17A (PC) - Admin_Update Merchant.png>)
+
+### **_18A (PC) - Register Page (CUSTOMERS ONLY)s_**
+
+![18A (PC) - Register Page (CUSTOMERS ONLY)s](<./docs/wireframes/18A (PC) - Register Page (CUSTOMERS ONLY).png>)
