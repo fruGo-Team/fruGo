@@ -328,13 +328,13 @@ City {
 
 ![15A (PC) - Admin/Add Merchant](<./docs/wireframes/15A (PC) - Admin_Add Merchant.png>)
 
-### **_16A (PC) - Admin/Customer List_**
+### **_16A (PC) - Admin/Update Merchant_**
 
-![16A (PC) - Admin/Customer List](<./docs/wireframes/16A (PC) - Admin_Update Merchant.png>)
+![16A (PC) - Admin/Update Merchant](<./docs/wireframes/16A (PC) - Admin_Update Merchant.png>)
 
-### **_17A (PC) - Admin/Update Merchant_**
+### **_17A (PC) - Admin/Customer List_**
 
-![17A (PC) - Admin/Update Merchant](<./docs/wireframes/17A (PC) - Admin_Customer List.png>)
+![17A (PC) - Admin/Customer List](<./docs/wireframes/17A (PC) - Admin_Customer List.png>)
 
 ### **_18A (PC) - Register Page (CUSTOMERS ONLY)_**
 
