@@ -272,13 +272,25 @@ City {
 
 ![1A (PC) - Homepage (NOT Signed In)](<./docs/wireframes/1A%20(PC)%20-%20Homepage%20(NOT%20Signed%20In).png>)
 
+### **_1B (Mobile) - Homepage (NOT Signed In)_**
+
+![1B (Mobile) - Homepage (NOT Signed In)](<./docs/wireframes/1B (Mobile) - Homepage (NOT Signed In).png>)
+
 ### **_2A (PC) - Products Page (NOT Signed In)_**
 
 ![2A (PC) - Products Page (NOT Signed In)](<./docs/wireframes/2A (PC) - Products Page (NOT Signed In).png>)
 
+### **_2B (Mobile) - Products Page (NOT Signed In)_**
+
+![2B (Mobile) - Products Page (NOT Signed In)](<./docs/wireframes/2B (Mobile) - Products Page (NOT Signed In).png>)
+
 ### **_3A (PC) - Sign In Page (ALL Users)_**
 
 ![3A (PC) - Sign In Page (ALL Users)](<./docs/wireframes/3A (PC) - Sign In Page (ALL Users).png>)
+
+### **_3B (Mobile) - Sign In Page (ALL Users)_**
+
+![3B (Mobile) - Sign In Page (ALL Users)](<./docs/wireframes/3B (Mobile) - Sign In Page (ALL Users).png>)
 
 ### **_4A (PC) - Customer Homepage_**
 
