@@ -40,6 +40,7 @@ The three external entities that will be interacting with the application are `C
 Admin {
   _id: ObjectId, // Unique document identifier
   email: String, // Email address (validated)
+  username: String, // Display name identifier
   password: String, // Password (min. 8 characters, stored as hash)
   firstName: String, // First name
   lastName: String, // Last name
@@ -66,6 +67,7 @@ Customer {
   _id: ObjectId, // Unique document identifier
   email: String, // Email address (validated)
   password: String, // Password (min. 8 characters, stored as hash)
+  username: String, // Display name identifier
   firstName: String, // First name
   lastName: String, // Last name
   city: ObjectId, // Referenced City object
@@ -93,6 +95,7 @@ Merchant {
   _id: ObjectId, // Unique document identifier
   email: String, // Email address (validated)
   password: String, // Password (min. 8 characters, stored as hash)
+  username: String, // Display name identifier
   name: String, // Business name
   description: String, // Brief description of business
   city: ObjectId, // Referenced City object
