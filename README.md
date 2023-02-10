@@ -99,7 +99,9 @@ Merchant {
   name: String, // Business name
   description: String, // Brief description of business
   city: ObjectId, // Referenced City object
+  streetAddress: String, // Street address for delivery,
   stock: Array, // Referenced StockProduct objects (includes product and stock quantity)
+  orders: Array, // Referenced Order objects
 }
 ```
 
