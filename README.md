@@ -387,7 +387,7 @@ City {
 
 ### **_15A (PC) - Admin/Add Merchant_**
 
-![15A (PC) - Admin/Add Merchant](<./docs/wireframes/15A (PC) - Admin_Add Merchant.png>)
+![15A (PC) - Admin/Add Merchant](<./docs/wireframes/15A (PC) - Admin_Add Merchant1.png>)
 
 ### **_15B (Mobile) - Admin/Add Merchant_**
 
@@ -395,7 +395,7 @@ City {
 
 ### **_16A (PC) - Admin/Update Merchant_**
 
-![16A (PC) - Admin/Update Merchant](<./docs/wireframes/16A (PC) - Admin_Update Merchant.png>)
+![16A (PC) - Admin/Update Merchant](<./docs/wireframes/16A (PC) - Admin_Update Merchant1.png>)
 
 ### **_16B (Mobile) - Admin/Update Merchant_**
 
