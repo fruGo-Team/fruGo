@@ -1,5 +1,9 @@
 # **_*fruGo*_**
 
+### **[GitHub repository](https://github.com/fruGo-Team/fruGo-Design)**
+
+### **[Trello board](https://trello.com/invite/b/EDReS0SV/ATTI1441e619d96a7657b875001c200c7e20E2F236F4/t3a2-frugo)**
+
 ## **R1: Description of website**
 
 ### **Concept**
