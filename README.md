@@ -373,13 +373,25 @@ City {
 
 ![13A (PC) - Admin Homepage](<./docs/wireframes/13A (PC) - Admin Homepage.png>)
 
+### **_13B (Mobile) - Admin Homepage_**
+
+![13B (Mobile) - Admin Homepage](<./docs/wireframes/13B (Mobile) - Admin Homepage.png>)
+
 ### **_14A (PC) - Admin/Merchant List_**
 
 ![14A (PC) - Admin/Merchant List](<./docs/wireframes/14A (PC) - Admin_Merchant List.png>)
 
+### **_14B (Mobile) - Admin/Merchant List_**
+
+![14B (Mobile) - Admin_Merchant List](<./docs/wireframes/14B (Mobile) - Admin_Merchant List.png>)
+
 ### **_15A (PC) - Admin/Add Merchant_**
 
 ![15A (PC) - Admin/Add Merchant](<./docs/wireframes/15A (PC) - Admin_Add Merchant.png>)
+
+### **_15B (Mobile) - Admin/Add Merchant_**
+
+![15B (Mobile) - Admin_Add Merchant](<./docs/wireframes/15B (Mobile) - Admin_Add Merchant.png>)
 
 ### **_16A (PC) - Admin/Update Merchant_**
 
