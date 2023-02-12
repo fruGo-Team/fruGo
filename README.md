@@ -349,13 +349,25 @@ City {
 
 ![10A (PC) - Merchant Products Page](<./docs/wireframes/10A (PC) - Merchant Products Page.png>)
 
+### **_10B (Mobile) - Merchant Products Page_**
+
+![10B (Mobile) - Merchant Products Page](<./docs/wireframes/10B (Mobile) - Merchant Products Page.png>)
+
 ### **_11A (PC) - Merchant Add Product Page_**
 
 ![11A (PC) - Merchant Add Product Page](<./docs/wireframes/11A (PC) - Merchant Add Product Page.png>)
 
+### **_11B (Mobile) - Merchant Add Product Page_**
+
+![11B (Mobile) - Merchant Add Product Page](<./docs/wireframes/11B (Mobile) - Merchant Add Product Page.png>)
+
 ### **_12A (PC) - Merchant Orders_**
 
 ![12A (PC) - Merchant Orders](<./docs/wireframes/12A (PC) - Merchant Orders.png>)
+
+### **_12B (Mobile) - Merchant Orders_**
+
+![12B (Mobile) - Merchant Orders](<./docs/wireframes/12B (Mobile) - Merchant Orders.png>)
 
 ### **_13A (PC) - Admin Homepage_**
 
