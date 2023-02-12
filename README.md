@@ -397,10 +397,22 @@ City {
 
 ![16A (PC) - Admin/Update Merchant](<./docs/wireframes/16A (PC) - Admin_Update Merchant.png>)
 
+### **_16B (Mobile) - Admin/Update Merchant_**
+
+![16B (Mobile) - Admin_Update Merchant](<./docs/wireframes/16B (Mobile) - Admin_Update Merchant.png>)
+
 ### **_17A (PC) - Admin/Customer List_**
 
 ![17A (PC) - Admin/Customer List](<./docs/wireframes/17A (PC) - Admin_Customer List.png>)
 
+### **_17B (Mobile) - Admin/Customer List_**
+
+![17B (Mobile) - Admin_Customer List](<./docs/wireframes/17B (Mobile) - Admin_Customer List.png>)
+
 ### **_18A (PC) - Register Page (CUSTOMERS ONLY)_**
 
 ![18A (PC) - Register Page (CUSTOMERS ONLY)](<./docs/wireframes/18A (PC) - Register Page (CUSTOMERS ONLY).png>)
+
+### **_18B (Mobile) - Register Page (CUSTOMERS ONLY)_**
+
+![18B (Mobile) - Register Page (CUSTOMERS ONLY)](<./docs/wireframes/18B (Mobile) - Register Page (CUSTOMERS ONLY).png>)
