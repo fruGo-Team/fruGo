@@ -301,13 +301,25 @@ City {
 
 ![4A (PC) - Customer Homepage](<./docs/wireframes/4A (PC) - Customer Homepage.png>)
 
+### **_4B (Mobile) - Customer Homepage_**
+
+![4B (Mobile) - Customer Homepage](<./docs/wireframes/4B (Mobile) - Customer Homepage.png>)
+
 ### **_5A (PC) - Customer Products Page_**
 
 ![5A (PC) - Customer Products Page](<./docs/wireframes/5A (PC) - Customer Products Page.png>)
 
+### **_5B (Mobile) - Customer Products Page_**
+
+![5B (Mobile) - Customer Products Page](<./docs/wireframes/5B (Mobile) - Customer Products Page.png>)
+
 ### **_6A (PC) - Customer Cart Page_**
 
 ![6A (PC) - Customer Cart Page](<./docs/wireframes/6A (PC) - Customer Cart Page.png>)
+
+### **_6B (Mobile) - Customer Cart Page_**
+
+![6B (Mobile) - Customer Cart Page](<./docs/wireframes/6B (Mobile) - Customer Cart Page.png>)
 
 ### **_7A (PC) - Customer Order Confirmation Page_**
 
