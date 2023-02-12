@@ -325,13 +325,25 @@ City {
 
 ![7A (PC) - Customer Order Confirmation Page](<./docs/wireframes/7A (PC) - Customer Order Confirmation Page.png>)
 
+### **_7B (Mobile) - Customer Order Confirmation Page_**
+
+![7B (Mobile) - Customer Order Confirmation Page](<./docs/wireframes/7B (Mobile) - Customer Order Confirmation Page.png>)
+
 ### **_8A (PC) - Customer Completed Orders_**
 
 ![8A (PC) - Customer Completed Orders](<./docs/wireframes/8A (PC) - Customer Completed Orders.png>)
 
+### **_8B (Mobile) - Customer Completed Orders_**
+
+![8B (Mobile) - Customer Completed Orders](<./docs/wireframes/8B (Mobile) - Customer Completed Orders.png>)
+
 ### **_9A (PC) - Merchant Homepage_**
 
 ![9A (PC) - Merchant Homepage](<./docs/wireframes/9A (PC) - Merchant Homepage.png>)
+
+### **_9B (Mobile) - Merchant Homepage_**
+
+![9B (Mobile) - Merchant Homepage](<./docs/wireframes/9B (Mobile) - Merchant Homepage.png>)
 
 ### **_10A (PC) - Merchant Products Page_**
 
